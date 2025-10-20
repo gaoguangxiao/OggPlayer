@@ -1,0 +1,16 @@
+PODS:
+  - OggPlayer (0.1.0)
+
+DEPENDENCIES:
+  - OggPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  OggPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OggPlayer: 21d65de8f7315214eab0cc0e3940f073d0ac313e
+
+PODFILE CHECKSUM: 929efd24d82079929398378007c08bee16b2e965
+
+COCOAPODS: 1.16.2

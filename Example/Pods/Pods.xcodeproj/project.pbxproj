@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103A4A6C2A559D3BBC673E8242E5EE17 /* IDZAQAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 91365AC774202BFBD6B83325F7027B47 /* IDZAQAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145516589DC26DAF03BC3A431E66B053 /* Pods-OggPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F41101D64040E93CD7631946DBDCC0A8 /* Pods-OggPlayer_Tests-dummy.m */; };
+		2C7BB091AA94C642C3450D1061A75FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		50C39902940C5432999F7AE6CE2FC594 /* IDZAudioDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F0D62D8B7874900FCC0B75E381F925 /* IDZAudioDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C2E385E0D5FFCEB3E4482B2DA775FE /* Pods-OggPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF35B6D9ED81C188265FF3B3011717F /* Pods-OggPlayer_Example-dummy.m */; };
+		69CCEF4AA76A8CC780E20F200AA5D131 /* IDZAQAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8206391C32FA9611EAF7887453E85ED4 /* IDZAQAudioPlayer.m */; };
+		7ED13AE69DF904833F3B9D164A3A0E30 /* Pods-OggPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFBAAE0C644DD944C940E1D6C604154B /* Pods-OggPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803B292EE1D0DF369DF99AEE5E43F93F /* IDZOggVorbisFileDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A8A24FD011FA3E53B0AD44DC629C0F /* IDZOggVorbisFileDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8080C5674A23DA7CA8B2891AB1133286 /* IDZAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B9E9E596620DB3C9E20E3AB0A6FD295D /* IDZAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		899FD0C405BED3012CE1264552B8FD82 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AAF6905396EEB7EA3EE2478A046A7A /* ReplaceMe.swift */; };
+		AABBA71D3E23E753859EF6D2A210F824 /* OggPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 756774B5DFD06A158FDDF55F04C71F20 /* OggPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8AEE21159609FE02307FC9B6927283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C095E62925C407AB4043E02B39302B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C0DA4F22B23B3DC7BD661BFAEC9ED648 /* Pods-OggPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DADBDB21C297CCEF8468823C9644B29F /* Pods-OggPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79F3871AC3A63CF84CA81B71656BFF0 /* OggPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E34B551CE75312FA8DA4C3A01256E25 /* OggPlayer-dummy.m */; };
+		FFE6925909DEE87B89ACC4E9E5507ABC /* IDZOggVorbisFileDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8F8D2E4EA5606FF2347A9C1EFF060765 /* IDZOggVorbisFileDecoder.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		935472F3870A47E9539BAB900221615B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDCADD40F9F722397806B80E50B9764;
+			remoteInfo = OggPlayer;
+		};
+		BFDEC1F1C38624128966383DC8B75F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE7AF992FA971A6061984A831812AFB;
+			remoteInfo = "Pods-OggPlayer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E34B551CE75312FA8DA4C3A01256E25 /* OggPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OggPlayer-dummy.m"; sourceTree = "<group>"; };
+		10A8A24FD011FA3E53B0AD44DC629C0F /* IDZOggVorbisFileDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDZOggVorbisFileDecoder.h; path = OggPlayer/Classes/IDZOggVorbisFileDecoder.h; sourceTree = "<group>"; };
+		19D3417BAF91B5951296AD32711420AA /* Pods-OggPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OggPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D00CD211E20D78FF122A9DD1C827EA1 /* OggPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OggPlayer-prefix.pch"; sourceTree = "<group>"; };
+		248964352D1BF09B0D1AC81107761D1C /* Pods-OggPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OggPlayer_Tests.modulemap"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		419918EDE34B3D2AD612123E80C585A1 /* OggPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OggPlayer.debug.xcconfig; sourceTree = "<group>"; };
+		491E5A3463F748E362DE97AB880266EF /* OggPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OggPlayer.release.xcconfig; sourceTree = "<group>"; };
+		4EF35B6D9ED81C188265FF3B3011717F /* Pods-OggPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OggPlayer_Example-dummy.m"; sourceTree = "<group>"; };
+		5B053CE9F2D84522490ED06199F15462 /* Pods-OggPlayer_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OggPlayer_Tests"; path = Pods_OggPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AAF6905396EEB7EA3EE2478A046A7A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OggPlayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		661113D5865EE6A0E2B9E5EB0F99DB53 /* Pods-OggPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OggPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6A01180083654E84145A8C51A36FA27B /* Pods-OggPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OggPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6F1FC8EED8CE3989C6D15497D06BE25E /* Pods-OggPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OggPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		756774B5DFD06A158FDDF55F04C71F20 /* OggPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OggPlayer-umbrella.h"; sourceTree = "<group>"; };
+		7A7DDB6DB47D9AFCA85C4481F2A21AB8 /* Pods-OggPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OggPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C376E50CA06E68DD92F0D3EA6625E92 /* OggPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OggPlayer.modulemap; sourceTree = "<group>"; };
+		81F0D62D8B7874900FCC0B75E381F925 /* IDZAudioDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDZAudioDecoder.h; path = OggPlayer/Classes/IDZAudioDecoder.h; sourceTree = "<group>"; };
+		8205CC6689F4DE1D8CFEF14EBEA0D44B /* Pods-OggPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OggPlayer_Example.modulemap"; sourceTree = "<group>"; };
+		8206391C32FA9611EAF7887453E85ED4 /* IDZAQAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IDZAQAudioPlayer.m; path = OggPlayer/Classes/IDZAQAudioPlayer.m; sourceTree = "<group>"; };
+		8273C09B0A7F7620AD2E6FBC3B26CDD2 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = OggPlayer/Vorbis.framework; sourceTree = "<group>"; };
+		8F4FBEE9D47E0FEBA48B562659C72747 /* Pods-OggPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OggPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8F8D2E4EA5606FF2347A9C1EFF060765 /* IDZOggVorbisFileDecoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IDZOggVorbisFileDecoder.mm; path = OggPlayer/Classes/IDZOggVorbisFileDecoder.mm; sourceTree = "<group>"; };
+		91365AC774202BFBD6B83325F7027B47 /* IDZAQAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDZAQAudioPlayer.h; path = OggPlayer/Classes/IDZAQAudioPlayer.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F16B349FDE38A1EB6E8CB780449A18B /* OggPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OggPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B39C70709CEB7CC5B6A7B8CCA56AC2E5 /* OggPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OggPlayer-Info.plist"; sourceTree = "<group>"; };
+		B4BE333BFFB9BA5DFE7F61896ACA1115 /* Pods-OggPlayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OggPlayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5A8493BE2CF8696DBC7DE3B293E8A3E /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = OggPlayer/Ogg.framework; sourceTree = "<group>"; };
+		B6A20A135492B1B9AB060CBC909EDA7D /* Pods-OggPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OggPlayer_Example-Info.plist"; sourceTree = "<group>"; };
+		B9E9E596620DB3C9E20E3AB0A6FD295D /* IDZAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDZAudioPlayer.h; path = OggPlayer/Classes/IDZAudioPlayer.h; sourceTree = "<group>"; };
+		BA755FE44B38B090103BA6FEA5909ED6 /* Pods-OggPlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OggPlayer_Example"; path = Pods_OggPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7EEBB3EBDFF421159AD0DBCB4FF111 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C66D2E903D41F8798287ACD0A7368C01 /* Pods-OggPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OggPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEEAA89E8E12CFAC53BDB4C03D273A40 /* Pods-OggPlayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OggPlayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		CFBAAE0C644DD944C940E1D6C604154B /* Pods-OggPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OggPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		DADBDB21C297CCEF8468823C9644B29F /* Pods-OggPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OggPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2491799051EB1996DE2033259B685E5 /* OggPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OggPlayer; path = OggPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69F947AA48BC0F92E4BE07773D85031 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F41101D64040E93CD7631946DBDCC0A8 /* Pods-OggPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OggPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		F73D5C392BC9EDE0F606C79805072BD6 /* Pods-OggPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OggPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D7D3F0C7E917783E3E4AADC7AE2F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C095E62925C407AB4043E02B39302B42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951D4A20B98D8C1D8EA076AB7A59C734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8AEE21159609FE02307FC9B6927283 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE800090A6470B4FC908466A84F78390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7BB091AA94C642C3450D1061A75FC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166BEBA7709AC4B6E86A34A6D4271C73 /* Pods-OggPlayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8205CC6689F4DE1D8CFEF14EBEA0D44B /* Pods-OggPlayer_Example.modulemap */,
+				7A7DDB6DB47D9AFCA85C4481F2A21AB8 /* Pods-OggPlayer_Example-acknowledgements.markdown */,
+				19D3417BAF91B5951296AD32711420AA /* Pods-OggPlayer_Example-acknowledgements.plist */,
+				4EF35B6D9ED81C188265FF3B3011717F /* Pods-OggPlayer_Example-dummy.m */,
+				F73D5C392BC9EDE0F606C79805072BD6 /* Pods-OggPlayer_Example-frameworks.sh */,
+				B6A20A135492B1B9AB060CBC909EDA7D /* Pods-OggPlayer_Example-Info.plist */,
+				CFBAAE0C644DD944C940E1D6C604154B /* Pods-OggPlayer_Example-umbrella.h */,
+				8F4FBEE9D47E0FEBA48B562659C72747 /* Pods-OggPlayer_Example.debug.xcconfig */,
+				6A01180083654E84145A8C51A36FA27B /* Pods-OggPlayer_Example.release.xcconfig */,
+			);
+			name = "Pods-OggPlayer_Example";
+			path = "Target Support Files/Pods-OggPlayer_Example";
+			sourceTree = "<group>";
+		};
+		187F237678343B4212A7679EB9587EB5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				776C6283B10FC16E8802EC8E4A945059 /* OggPlayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1C5F8A9555E7A9CE84783BDFE292594C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5A8493BE2CF8696DBC7DE3B293E8A3E /* Ogg.framework */,
+				8273C09B0A7F7620AD2E6FBC3B26CDD2 /* Vorbis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		776C6283B10FC16E8802EC8E4A945059 /* OggPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				91365AC774202BFBD6B83325F7027B47 /* IDZAQAudioPlayer.h */,
+				8206391C32FA9611EAF7887453E85ED4 /* IDZAQAudioPlayer.m */,
+				81F0D62D8B7874900FCC0B75E381F925 /* IDZAudioDecoder.h */,
+				B9E9E596620DB3C9E20E3AB0A6FD295D /* IDZAudioPlayer.h */,
+				10A8A24FD011FA3E53B0AD44DC629C0F /* IDZOggVorbisFileDecoder.h */,
+				8F8D2E4EA5606FF2347A9C1EFF060765 /* IDZOggVorbisFileDecoder.mm */,
+				65AAF6905396EEB7EA3EE2478A046A7A /* ReplaceMe.swift */,
+				1C5F8A9555E7A9CE84783BDFE292594C /* Frameworks */,
+				FD54284BFC12B5F4B1C92D76B1BDC899 /* Pod */,
+				B0E35385DA61F58F49D70387C2329AB2 /* Support Files */,
+			);
+			name = OggPlayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		994854CE72A72ACB7D7B1DEEF110242C /* Pods-OggPlayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				248964352D1BF09B0D1AC81107761D1C /* Pods-OggPlayer_Tests.modulemap */,
+				C66D2E903D41F8798287ACD0A7368C01 /* Pods-OggPlayer_Tests-acknowledgements.markdown */,
+				B4BE333BFFB9BA5DFE7F61896ACA1115 /* Pods-OggPlayer_Tests-acknowledgements.plist */,
+				F41101D64040E93CD7631946DBDCC0A8 /* Pods-OggPlayer_Tests-dummy.m */,
+				CEEAA89E8E12CFAC53BDB4C03D273A40 /* Pods-OggPlayer_Tests-Info.plist */,
+				DADBDB21C297CCEF8468823C9644B29F /* Pods-OggPlayer_Tests-umbrella.h */,
+				6F1FC8EED8CE3989C6D15497D06BE25E /* Pods-OggPlayer_Tests.debug.xcconfig */,
+				661113D5865EE6A0E2B9E5EB0F99DB53 /* Pods-OggPlayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-OggPlayer_Tests";
+			path = "Target Support Files/Pods-OggPlayer_Tests";
+			sourceTree = "<group>";
+		};
+		B0E35385DA61F58F49D70387C2329AB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C376E50CA06E68DD92F0D3EA6625E92 /* OggPlayer.modulemap */,
+				0E34B551CE75312FA8DA4C3A01256E25 /* OggPlayer-dummy.m */,
+				B39C70709CEB7CC5B6A7B8CCA56AC2E5 /* OggPlayer-Info.plist */,
+				1D00CD211E20D78FF122A9DD1C827EA1 /* OggPlayer-prefix.pch */,
+				756774B5DFD06A158FDDF55F04C71F20 /* OggPlayer-umbrella.h */,
+				419918EDE34B3D2AD612123E80C585A1 /* OggPlayer.debug.xcconfig */,
+				491E5A3463F748E362DE97AB880266EF /* OggPlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OggPlayer";
+			sourceTree = "<group>";
+		};
+		BBAB57B8C6D5EF7D39D9849D91C0F42D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				166BEBA7709AC4B6E86A34A6D4271C73 /* Pods-OggPlayer_Example */,
+				994854CE72A72ACB7D7B1DEEF110242C /* Pods-OggPlayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				187F237678343B4212A7679EB9587EB5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DDFB6A7A4CC7E9838695F5BD05DD83FF /* Products */,
+				BBAB57B8C6D5EF7D39D9849D91C0F42D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDFB6A7A4CC7E9838695F5BD05DD83FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2491799051EB1996DE2033259B685E5 /* OggPlayer */,
+				BA755FE44B38B090103BA6FEA5909ED6 /* Pods-OggPlayer_Example */,
+				5B053CE9F2D84522490ED06199F15462 /* Pods-OggPlayer_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD54284BFC12B5F4B1C92D76B1BDC899 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E69F947AA48BC0F92E4BE07773D85031 /* LICENSE */,
+				9F16B349FDE38A1EB6E8CB780449A18B /* OggPlayer.podspec */,
+				BC7EEBB3EBDFF421159AD0DBCB4FF111 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		016F618DE95D98C0A19DAD9303D1760E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DA4F22B23B3DC7BD661BFAEC9ED648 /* Pods-OggPlayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32304F5F91186F28C8F3A75A27284404 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103A4A6C2A559D3BBC673E8242E5EE17 /* IDZAQAudioPlayer.h in Headers */,
+				50C39902940C5432999F7AE6CE2FC594 /* IDZAudioDecoder.h in Headers */,
+				8080C5674A23DA7CA8B2891AB1133286 /* IDZAudioPlayer.h in Headers */,
+				803B292EE1D0DF369DF99AEE5E43F93F /* IDZOggVorbisFileDecoder.h in Headers */,
+				AABBA71D3E23E753859EF6D2A210F824 /* OggPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC069FAFC7076277DC985322CD2311B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED13AE69DF904833F3B9D164A3A0E30 /* Pods-OggPlayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65D79CC0E653B86D8A8D55EC258F8B98 /* Pods-OggPlayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7040C97E046F7351B2169572D913A2 /* Build configuration list for PBXNativeTarget "Pods-OggPlayer_Tests" */;
+			buildPhases = (
+				016F618DE95D98C0A19DAD9303D1760E /* Headers */,
+				83107C9E6A7C10CD24CBCFB9942F4579 /* Sources */,
+				951D4A20B98D8C1D8EA076AB7A59C734 /* Frameworks */,
+				FB1D98037EA649D99630CF5851418C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31B47638E4DAC36BB3BE4ED9F7C74682 /* PBXTargetDependency */,
+			);
+			name = "Pods-OggPlayer_Tests";
+			productName = Pods_OggPlayer_Tests;
+			productReference = 5B053CE9F2D84522490ED06199F15462 /* Pods-OggPlayer_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BEE7AF992FA971A6061984A831812AFB /* Pods-OggPlayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02EA5934889049A18C31D3E333C2B6BD /* Build configuration list for PBXNativeTarget "Pods-OggPlayer_Example" */;
+			buildPhases = (
+				BC069FAFC7076277DC985322CD2311B6 /* Headers */,
+				69D4248C855AEFBF5D636104C91CCF00 /* Sources */,
+				47D7D3F0C7E917783E3E4AADC7AE2F2C /* Frameworks */,
+				E049F5640A4C4932079EC414BFCF62AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2BC569D12670A7DF7AA2EA94C8A617 /* PBXTargetDependency */,
+			);
+			name = "Pods-OggPlayer_Example";
+			productName = Pods_OggPlayer_Example;
+			productReference = BA755FE44B38B090103BA6FEA5909ED6 /* Pods-OggPlayer_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCDCADD40F9F722397806B80E50B9764 /* OggPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C610FE9591315A2153416E269A835E /* Build configuration list for PBXNativeTarget "OggPlayer" */;
+			buildPhases = (
+				32304F5F91186F28C8F3A75A27284404 /* Headers */,
+				403BC63A35F8F37E769A6870722FF79C /* Sources */,
+				FE800090A6470B4FC908466A84F78390 /* Frameworks */,
+				878B7121A341AED07F7A1685711E0518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OggPlayer;
+			productName = OggPlayer;
+			productReference = E2491799051EB1996DE2033259B685E5 /* OggPlayer */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDFB6A7A4CC7E9838695F5BD05DD83FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDCADD40F9F722397806B80E50B9764 /* OggPlayer */,
+				BEE7AF992FA971A6061984A831812AFB /* Pods-OggPlayer_Example */,
+				65D79CC0E653B86D8A8D55EC258F8B98 /* Pods-OggPlayer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878B7121A341AED07F7A1685711E0518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E049F5640A4C4932079EC414BFCF62AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1D98037EA649D99630CF5851418C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403BC63A35F8F37E769A6870722FF79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CCEF4AA76A8CC780E20F200AA5D131 /* IDZAQAudioPlayer.m in Sources */,
+				FFE6925909DEE87B89ACC4E9E5507ABC /* IDZOggVorbisFileDecoder.mm in Sources */,
+				D79F3871AC3A63CF84CA81B71656BFF0 /* OggPlayer-dummy.m in Sources */,
+				899FD0C405BED3012CE1264552B8FD82 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D4248C855AEFBF5D636104C91CCF00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C2E385E0D5FFCEB3E4482B2DA775FE /* Pods-OggPlayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83107C9E6A7C10CD24CBCFB9942F4579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145516589DC26DAF03BC3A431E66B053 /* Pods-OggPlayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31B47638E4DAC36BB3BE4ED9F7C74682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OggPlayer_Example";
+			target = BEE7AF992FA971A6061984A831812AFB /* Pods-OggPlayer_Example */;
+			targetProxy = BFDEC1F1C38624128966383DC8B75F0A /* PBXContainerItemProxy */;
+		};
+		CD2BC569D12670A7DF7AA2EA94C8A617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OggPlayer;
+			target = FCDCADD40F9F722397806B80E50B9764 /* OggPlayer */;
+			targetProxy = 935472F3870A47E9539BAB900221615B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CA1E9DCC245C9FA625F97C72193538A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1FC8EED8CE3989C6D15497D06BE25E /* Pods-OggPlayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OggPlayer_Tests/Pods-OggPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OggPlayer_Tests/Pods-OggPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		403C1150AB306CE78726B33F5F70D01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491E5A3463F748E362DE97AB880266EF /* OggPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OggPlayer/OggPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/OggPlayer/OggPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OggPlayer/OggPlayer.modulemap";
+				PRODUCT_MODULE_NAME = OggPlayer;
+				PRODUCT_NAME = OggPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A5B8F5CD2C46DBC850FA4D6DD56F240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A01180083654E84145A8C51A36FA27B /* Pods-OggPlayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OggPlayer_Example/Pods-OggPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OggPlayer_Example/Pods-OggPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58B4921C83DE4DCB35BA9FA44F22A3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4FBEE9D47E0FEBA48B562659C72747 /* Pods-OggPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OggPlayer_Example/Pods-OggPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OggPlayer_Example/Pods-OggPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A1DC83013414090DBC30F533A4831E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419918EDE34B3D2AD612123E80C585A1 /* OggPlayer.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OggPlayer/OggPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/OggPlayer/OggPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OggPlayer/OggPlayer.modulemap";
+				PRODUCT_MODULE_NAME = OggPlayer;
+				PRODUCT_NAME = OggPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D98C77B8136BBEDFFBDFB1073AEB5956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661113D5865EE6A0E2B9E5EB0F99DB53 /* Pods-OggPlayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OggPlayer_Tests/Pods-OggPlayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OggPlayer_Tests/Pods-OggPlayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EA5934889049A18C31D3E333C2B6BD /* Build configuration list for PBXNativeTarget "Pods-OggPlayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B4921C83DE4DCB35BA9FA44F22A3F7 /* Debug */,
+				4A5B8F5CD2C46DBC850FA4D6DD56F240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C610FE9591315A2153416E269A835E /* Build configuration list for PBXNativeTarget "OggPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DC83013414090DBC30F533A4831E6A /* Debug */,
+				403C1150AB306CE78726B33F5F70D01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7040C97E046F7351B2169572D913A2 /* Build configuration list for PBXNativeTarget "Pods-OggPlayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA1E9DCC245C9FA625F97C72193538A /* Debug */,
+				D98C77B8136BBEDFFBDFB1073AEB5956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
