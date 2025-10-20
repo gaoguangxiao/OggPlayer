@@ -479,42 +479,6 @@
 			};
 			name = Debug;
 		};
-		403C1150AB306CE78726B33F5F70D01F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 491E5A3463F748E362DE97AB880266EF /* OggPlayer.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/OggPlayer/OggPlayer-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/OggPlayer/OggPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OggPlayer/OggPlayer.modulemap";
-				PRODUCT_MODULE_NAME = OggPlayer;
-				PRODUCT_NAME = OggPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4A5B8F5CD2C46DBC850FA4D6DD56F240 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6A01180083654E84145A8C51A36FA27B /* Pods-OggPlayer_Example.release.xcconfig */;
@@ -586,6 +550,42 @@
 			};
 			name = Debug;
 		};
+		71A86268042EF58C9F395A0FBCF53691 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491E5A3463F748E362DE97AB880266EF /* OggPlayer.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/OggPlayer/OggPlayer-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/OggPlayer/OggPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OggPlayer/OggPlayer.modulemap";
+				PRODUCT_MODULE_NAME = OggPlayer;
+				PRODUCT_NAME = OggPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -648,7 +648,7 @@
 			};
 			name = Release;
 		};
-		A1DC83013414090DBC30F533A4831E6A /* Debug */ = {
+		BE4537F4859821E3F82E25B361D341DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 419918EDE34B3D2AD612123E80C585A1 /* OggPlayer.debug.xcconfig */;
 			buildSettings = {
@@ -676,7 +676,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -800,8 +800,8 @@
 		24C610FE9591315A2153416E269A835E /* Build configuration list for PBXNativeTarget "OggPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1DC83013414090DBC30F533A4831E6A /* Debug */,
-				403C1150AB306CE78726B33F5F70D01F /* Release */,
+				BE4537F4859821E3F82E25B361D341DD /* Debug */,
+				71A86268042EF58C9F395A0FBCF53691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

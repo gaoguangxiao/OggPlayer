@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of OggPlayer.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/gaoguangxiao125@sina.com/OggPlayer",
+  "homepage": "https://github.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,14 @@
     "gaoguangxiao125@sina.com": "gaoguangxiao125@sina.com"
   },
   "source": {
-    "git": "https://github.com/gaoguangxiao125@sina.com/OggPlayer.git",
+    "git": "https://github.com/gaoguangxiao/OggPlayer.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": "5.0",
   "vendored_frameworks": "OggPlayer/*.framework",
-  "source_files": "OggPlayer/Classes/**/*"
+  "source_files": "OggPlayer/Classes/**/*",
+  "swift_version": "5.0"
 }
